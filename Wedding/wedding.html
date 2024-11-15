@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GILSONG 2024 </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff0f5;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('IMG-20241103-WA0015.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 150px 0;
+        }
+        header h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+            font-family: 'Brush Script MT', cursive;
+        }
+        header p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        nav {
+            background: #ff69b4;
+            color: #fff;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+        section {
+            padding: 60px 0;
+        }
+        section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #ff1493;
+            font-size: 2.5em;
+            font-family: 'Brush Script MT', cursive;
+        }
+        .date-location {
+            text-align: center;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #ff69b4;
+        }
+        .story, .details, .rsvp, .gallery, .registry {
+            background: #fff;
+            margin-bottom: 40px;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .story p, .details p, .registry p {
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        .details h3 {
+            color: #ff69b4;
+            margin-top: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .gallery img {
+            width: 30%;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form textarea {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        form button {
+            background: #ff69b4;
+            color: #fff;
+            border: none;
+            padding: 15px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        form button:hover {
+            background: #ff1493;
+        }
+        .registry ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .registry ul li {
+            margin-bottom: 10px;
+        }
+        .registry ul li a {
+            color: #ff69b4;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .registry ul li a:hover {
+            color: #ff1493;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media(max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            .gallery img {
+                width: 45%;
+            }
+            header h1 {
+                font-size: 3em;
+            }
+            section h2 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Oscar & Gillian </h1>
+            <p>Are getting married!</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#date">Date</a></li>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#rsvp">RSVP</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#registry">Appreciation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="date">
+        <div class="container">
+            <h2>Save the Date</h2>
+            <div class="date-location">
+                <p>November 16th, 2024</p>
+                <p>Manuex place, Warri</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="story">
+        <div class="container">
+            <h2>Our Story</h2>
+            <div class="story">
+                <p>What began as a chance meeting blossomed into a journey of love, laughter, and endless memories. From stolen glances to shared dreams, we've built a bond rooted in friendship and strengthened by commitment. Every step has brought us closer to this beautiful moment, and we can't wait to start the next chapter together.</p>
+            </p>
+           </div>
+        </div>
+    </section>
+
+    <section id="details">
+        <div class="container">
+            <h2>Event Details</h2>
+            <div class="details">
+                <h3>Ceremony</h3>
+                <p>Join us as we exchange vows and begin our new life together.</p>
+                <h3>Reception</h3>
+                <p>1:00 PM - 4:00 PM</p>
+                <p>Manuex Main Hall</p>
+                <p>Celebrate with us! Enjoy dinner, dancing, and making memories that will last a lifetime.</p>
+                <h3>Dress Code</h3>
+                <p>Native attire</p>
+              </div>
+        </div>
+    </section>
+
+    <section id="rsvp">
+        <div class="container">
+            <h2>RSVP</h2>
+            <div class="rsvp">
+                <form id="rsvpForm">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <input type="text" id="attending" placeholder="Attending? (Yes/No)" required>
+                    <textarea id="message" placeholder="Any message for the couple?"></textarea>
+                    <button type="submit">Send RSVP</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="elkpts11.jpg" alt="Gillian and Oscar 1">
+                <img src="elkpts13.jpg" alt="Gillian and Oscar 2">
+                <img src="elkpts3.jpg" alt="Gillian and Oscar 3">
+                <img src="elkpts2.jpg" alt="Gillian and Oscar 4">
+                <img src="elkpts15.jpg" alt="Gillian and Oscar 5">
+                <img src="elkpts6.jpg" alt="Gillian and Oscar 6">
+            </div>
+        </div>
+    </section>
+
+    <section id="registry">
+        <div class="container">
+            <h2>Appreciation</h2>
+            <div class="registry">
+                <p>Thank you for celebrating with us at our Wedding. You all made it a memorable experience. one filled with so much love and support. We are sincerely grateful for your presence.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Gillian and Oscar's Wedding</p>
+            <p>❤️</p>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        emailjs.init('RBfDT3SKhRqcUd8SR');
+
+        document.getElementById('rsvpForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                attending: document.getElementById('attending').value,
+                message: document.getElementById('message').value   
+            };
+            // Here you would typically send this data to a server
+            emailjs.send('service_dmzc4yk','template_00dgauk',formData).then(() => {
+                alert('RSVP sent successfully!');
+            })
+            .catch((error)=>{console.error('Failed to send RSVP:', error);
+                });
+            alert('Thank you for your RSVP! We look forward to celebrating with you.');
+            this.reset();
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
